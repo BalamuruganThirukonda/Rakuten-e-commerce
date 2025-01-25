@@ -25,6 +25,7 @@ Key Features:
 Folder Structure
 =================
 The repository follows a modular structure inspired by the cookiecutter data science project template. Below is a brief overview:
+
 ------------
 
     ├── LICENSE
