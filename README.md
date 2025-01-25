@@ -1,4 +1,4 @@
-Project Name
+Unified Multimodal Product Classification for Rakuten’s E-Commerce Catalog
 ==============================
 
 This repo is a Starting Pack for DS projects. You can rearrange the structure to make it fits your project.
@@ -13,10 +13,10 @@ Project Organization
     │   └── RAW DATASET    <- The original, immutable data dump.
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
+    │   ├── Image model    <- contains saved model and labelencoder
+    │   └── Text model     <- contains txt file with link for saved model and labelencoder
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's name, and a short `-` delimited description, e.g.
-    │                         `1.0-alban-data-exploration`.
+    ├── notebooks          <- contains Jupyter notebooks for EDA, feature engineering, preprocessing and model file
     │
     ├── references         <- Data dictionaries, manuals, links, and all other explanatory materials.
     │
